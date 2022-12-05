@@ -4,10 +4,11 @@ import { AppService } from './app.service';
 import { Day1Service } from './day-1/day-1.service';
 import { Day2Service } from './day-2/day-2.service';
 import { Day3Service } from './day-3/day-3.service';
+import { Day4Service } from './day-4/day-4.service';
 
 @Module({
   imports: [],
   controllers: [AppController],
-  providers: [AppService, Day1Service, Day2Service, Day3Service],
+  providers: [AppService, Day1Service, Day2Service, Day3Service, Day4Service],
 })
 export class AppModule {}
